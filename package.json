@@ -1,0 +1,68 @@
+{
+  "name": "pdf-image-size-detector",
+  "version": "1.0.0",
+  "description": "Extract images from PDFs and analyze their dimensions, format, file size, and aspect ratio",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit",
+    "analyze": "cross-env ANALYZE=true next build"
+  },
+  "dependencies": {
+    "next": "^14.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "axios": "^1.6.0",
+    "react-dropzone": "^14.2.3",
+    "@heroicons/react": "^2.0.18"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "autoprefixer": "^10.4.16",
+    "eslint": "^8.0.0",
+    "eslint-config-next": "^14.0.0",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.5",
+    "typescript": "^5.0.0",
+    "cross-env": "^7.0.3"
+  },
+  "keywords": [
+    "pdf",
+    "image",
+    "extraction",
+    "size",
+    "detection",
+    "vercel",
+    "nextjs",
+    "react",
+    "python",
+    "flask",
+    "pdf-tools",
+    "image-analysis",
+    "web-app",
+    "online-tools"
+  ],
+  "author": {
+    "name": "Your Name",
+    "email": "your.email@example.com",
+    "url": "https://github.com/yourusername"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/pdf-image-size-detector.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/pdf-image-size-detector/issues"
+  },
+  "homepage": "https://your-vercel-app-url.vercel.app",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  }
+}
